@@ -1,0 +1,38 @@
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+body{
+  background-color: #5BA3D6;
+  color:white;
+  font-family:Arial sans-serif;
+  font-size: 62.5%;
+  margin: 0 auto;
+}
+
+.column1{
+  float: left;
+   width: 33%;
+   }
+
+.column2{
+ display: inline-block;
+ width: 33%;
+ }
+
+.column3{
+  float: right;
+  width: 33%;
+  }
+
+input,
+textarea,
+select{
+  background-color:#5BA3D6;
+  border-color:white;
+  color:white;
+}

@@ -36,7 +36,7 @@ h1{
 
  @media (max-width: 839px) and (min-width: 500px){
    .container{
-    background-color: red;
+
     max-width:99%;
     margin: 1%;
 
@@ -70,7 +70,7 @@ h1{
 /* mobile */
 @media (max-width:499px) {
   .container{
-    background-color: chartreuse;
+
     margin{
       max-width: 99%;
       margin:1%;
