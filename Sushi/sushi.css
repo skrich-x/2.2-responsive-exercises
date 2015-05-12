@@ -1,0 +1,41 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body{
+  font-size: 62.5%;
+}
+
+.container{
+  max-width:1280px;
+  margin: 0 auto;
+
+}
+
+img {
+  max-width:100%;
+}
+
+h1{
+  font-size:1.5em;
+}
+.sashimi,
+.noodles,
+.roe{
+  width:360px;
+  display:inline-block;
+  font-size: 2em;
+  color: #47A3DA;
+  margin:0px 25px;
+}
+
+
+ /* tablet */
+
+ @media (max-width: 839px) and (min-width: 500px)
+   .container{
+     float: none;
+     width: auto;
+   }
