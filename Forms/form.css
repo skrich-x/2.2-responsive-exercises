@@ -12,6 +12,7 @@ body{
   font-family:Arial sans-serif;
   font-size: 62.5%;
   margin: 0 auto;
+  text-transform: uppercase;
 }
 
 .column1{
@@ -35,4 +36,10 @@ select{
   background-color:#5BA3D6;
   border-color:white;
   color:white;
+  width:85%;
+  border: 1.5px solid white;
+}
+
+select{
+  border-color:#A0A5A9;
 }
