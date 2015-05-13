@@ -16,7 +16,7 @@ body{
 }
 
 .column1{
-  float: left;
+  display:inline-block;
    width: 33%;
    }
 
@@ -26,9 +26,17 @@ body{
  }
 
 .column3{
-  float: right;
+  display:inline-block;
   width: 33%;
   }
+/* to change placeholder styling inside input boxes
+ */
+
+  ::-webkit-input-placeholder {
+  color: #2a6b99 ;
+  font-style: italic;
+}
+
 
 input,
 textarea,
@@ -40,18 +48,45 @@ select{
   border: 1.5px solid white;
 }
 
+
 select{
-  border-color:#A0A5A9;
+    border-color: #2A6A98;
 }
 
 
 /* @media (max-width: 839px) and (min-width: 500px){
-   form{
+
      mobile */
-@media (max-width:499px) {
-  .form{
-    background-color:red;
-    width:99%;
-    display:block;
-}
+ @media screen and (max-width:880px) and (min-width:500px) {
+
+   form {
+     width: 100%;
+     padding: 10%;
+   }
+
+   .column1,
+   .column2,
+   .column3 {
+     width: 45%;
+     height:auto;
+     text-align: center;
+   }
+ }
+
+
+
+@media screen and (max-width:499px) {
+
+  form {
+    width: 100%;
+    padding: 5%;
+  }
+
+  .column1,
+  .column2,
+  .column3 {
+    width: 90%;
+    height:auto;
+    text-align: center;
+  }
 }
