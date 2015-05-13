@@ -1,0 +1,92 @@
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+body{
+  background-color: #5BA3D6;
+  color:white;
+  font-family:Arial sans-serif;
+  font-size: 62.5%;
+  margin: 0 auto;
+  text-transform: uppercase;
+}
+
+.column1{
+  display:inline-block;
+   width: 33%;
+   }
+
+.column2{
+ display: inline-block;
+ width: 33%;
+ }
+
+.column3{
+  display:inline-block;
+  width: 33%;
+  }
+/* to change placeholder styling inside input boxes
+ */
+
+  ::-webkit-input-placeholder {
+  color: #2a6b99 ;
+  font-style: italic;
+}
+
+
+input,
+textarea,
+select{
+  background-color:#5BA3D6;
+  border-color:white;
+  color:white;
+  width:85%;
+  border: 1.5px solid white;
+}
+
+
+select{
+    border-color: #2A6A98;
+}
+
+
+/* @media (max-width: 839px) and (min-width: 500px){
+
+     mobile */
+ @media screen and (max-width:880px) and (min-width:500px) {
+
+   form {
+     width: 100%;
+     padding: 10%;
+   }
+
+   .column1,
+   .column2,
+   .column3 {
+     width: 45%;
+     height:auto;
+     text-align: center;
+   }
+ }
+
+
+
+@media screen and (max-width:499px) {
+
+  form {
+    width: 100%;
+    padding: 5%;
+  }
+
+  .column1,
+  .column2,
+  .column3 {
+    width: 90%;
+    height:auto;
+    text-align: center;
+  }
+}

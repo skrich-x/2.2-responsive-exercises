@@ -1,0 +1,95 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body{
+  font-size: 62.5%;
+}
+
+.container{
+  max-width: auto;
+  margin: 0 auto;
+}
+
+img {
+  max-width:99%;
+}
+
+h1{
+  font-size:1.5em;
+}
+
+.sashimi,
+.noodles,
+.roe{
+  width:33%;
+  display:inline-block;
+  font-size: 2em;
+  color: #47A3DA;
+  vertical-align:top;
+}
+
+
+ /* tablet */
+
+ @media (max-width: 839px) and (min-width: 500px){
+   .container{
+
+    max-width:99%;
+    margin: 1%;
+
+
+  }
+
+  .sashimi,
+  .noodles,
+  .roe{
+    width:auto;
+    display:inline-block;
+    vertical-align: middle;
+  }
+
+  img{
+    display: inline-block;
+    vertical-align: top;
+    width:40%;
+    }
+
+
+
+  .textContainer{
+    display: inline-block;
+    vertical-align: middle;
+    width:59%;
+
+  }
+}
+
+/* mobile */
+@media (max-width:499px) {
+  .container{
+
+    margin{
+      max-width: 99%;
+      margin:1%;
+    }
+
+  }
+
+  .sashimi,
+  .noodles,
+  .roe{
+    width:auto;
+    display:block;
+    vertical-align: middle;
+    text-align: center;
+  }
+
+  img{
+    width: auto;
+    height: auto;
+  }
+
+}
