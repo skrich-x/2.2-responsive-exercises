@@ -43,3 +43,15 @@ select{
 select{
   border-color:#A0A5A9;
 }
+
+
+/* @media (max-width: 839px) and (min-width: 500px){
+   form{
+     mobile */
+@media (max-width:499px) {
+  .form{
+    background-color:red;
+    width:99%;
+    display:block;
+}
+}

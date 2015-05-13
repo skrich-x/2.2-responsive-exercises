@@ -8,7 +8,7 @@
   <title>Forms</title>
 </head>
 <body>
-
+  <div class="form">
     <div class="column1">
         <div>
           <h1>First Name</h1>
@@ -33,7 +33,7 @@
         </div>
         <div>
           <h1>biography</h1>
-          <textarea name="" id="" cols="30" rows="10"></textarea>
+          <textarea name="biography" cols="30" rows="10"></textarea>
         </div>
     </div>
   <div class="column2">
@@ -47,7 +47,11 @@
         </div>
         <div>
           <h1>occupation</h1>
-          <input type="text">
+          <select name="occupation">
+            <option value="occupation" selected>Select Your Country</option>
+            <option value="Front End Developer">Front End Developer</option>
+            <option value="Sales">Sales</option>
+          </select>
         </div>
         <div>
           <h1>cat's name</h1>
@@ -61,7 +65,12 @@
   <div class="column3">
         <div>
           <h1>type of talent</h1>
-          <input type="text">
+          <select name="typeOfTalent">
+            <option value="selectYourTalent" selected>Select Your Talent</option>
+            <option value="art">Art</option>
+            <option value="music">Music</option>
+            <option value="programing">Programming</option>
+          </select>
         </div>
         <div>
           <h1>favorite drink</h1>
@@ -80,7 +89,7 @@
           <textarea name="" id="" cols="30" rows="10"></textarea>
         </div>
     </div>
-
+  </div>
 
 </body>
 </html>
